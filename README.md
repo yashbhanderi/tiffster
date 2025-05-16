@@ -1,14 +1,14 @@
 # Tiffster Web API
 
 ## Description
-Tiffster is a .NET Core Web API that lets you manage user sessions securely, processes TIFF images, and pushes real-time updates. It taps into Google Drive for storage and uses RabbitMQ (via MassTransit) for low-latency event delivery.
+Tiffster is a .NET Core Web API that lets you manage user sessions securely, processes `TIFF images`, and pushes real-time updates. It taps into Google Drive for storage and uses `RabbitMQ` (via `MassTransit`) for low-latency event delivery.
 
 ## Features
-- **JWT Authentication & Session Handling**: Quick setup for login, token issuance, and expiry tracking using FastEndpoints APIs.  
+- **JWT Authentication & Session Handling**: Quick setup for login, token issuance, and expiry tracking using `FastEndpoints APIs`.  
 - **Event-Driven Updates**: Seamless publish/subscribe via MassTransit and RabbitMQ for `PageChangedEvent` notifications.  
 - **TIFF Processing**: Extract metadata and convert TIFFs with TiffLibrary & SixLabors.ImageSharp.  
 - **Google Drive Integration**: Effortless upload/download/delete of TIFF files in the cloud.  
-- **Robust Error Handling**: Centralized exception middleware, built-in Polly retry policies, and consistent snake-case JSON responses.
+- **Robust Error Handling**: Centralized `exception middleware`, built-in `Polly retry policies`, and consistent snake-case JSON responses.
 
 ## Installation
 1. Clone the repo:  
