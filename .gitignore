@@ -1,0 +1,57 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# ASP.NET Core secrets
+secrets.json
+*.swp
+credentials.json
+appsettings.json
+
+# Log files
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Publish artifacts
+publish/
+wwwroot/dist/
+*.db
+
+# Test results
+TestResults/
+
+# Entity Framework
+Migrations/
+
+# dotenv files (if used for secrets)
+.env
+.env.*
+
+# Tiffster-specific (optional)
+*.tif
+*.tiff
+*.tmp
